@@ -1,0 +1,23 @@
+## Interface: 20400
+## Title: UnitFramesImproved_TBC
+## Notes: Extends the Blizzard unitframes for better visuals, with a minimal footprint.
+## Version: 0.1
+## Author: Ko0z (Richard) TBC backport, Originally by: Althalla (Kim Forsberg)
+## SavedVariables: globalSettings
+## SavedVariablesPerCharacter: characterSettings
+## OptionalDeps: ExtendedUF, FocusFrame
+## X-License: Public Domain
+## X-Category: Unit Frames
+
+libs\AceLibrary\AceLibrary.lua
+libs\AceOO-2.0\AceOO-2.0.lua
+libs\AceEvent-2.0\AceEvent-2.0.lua
+--libs\DruidManaLib-1.0\DruidManaLib-1.0.lua
+libs\LibDruidMana-1.0\LibDruidMana-1.0.lua
+
+skin\method.lua
+
+UnitFramesImproved_TBC.lua
+
+extramana.lua
+energy.lua
